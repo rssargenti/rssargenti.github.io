@@ -1,7 +1,9 @@
-remote_theme: jekyll/minima
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Site settings
+title: Tome
+author:
+  name: Rudy Sargenti
+  email: rsargenti99@gmail.com
+description: "Tutorial site and future blog."
 
-#theme: jekyll-theme-minimal
-title: rssargenti's homepage
-description: Testing config file
+# Build settings
+remote_theme: jekyll/minima
