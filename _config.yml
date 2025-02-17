@@ -6,6 +6,8 @@ author:
 description: "Tutorial site and future blog."
 
 # Build settings
-remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
+minima:
+  skin: dark
