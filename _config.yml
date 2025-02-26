@@ -1,13 +1,9 @@
 # Site settings
-title: Tome
+title: Great New Blog Title
 author:
-  name: Rudy Sargenti
-  email: rsargenti99@gmail.com
-description: "Tutorial site and future blog."
+  name: Evan Will
+  email: your-email@domain.com
+description: "Great site about Jekyll on GH-Pages."
 
 # Build settings
 remote_theme: jekyll/minima
-plugins:
-  - jekyll-remote-theme
-minima:
-  skin: dark
