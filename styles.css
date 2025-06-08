@@ -1,45 +1,51 @@
 #container {
-           display: flex;
-           width: 800px;
-           margin-left: auto;
-           margin-right: auto; 
-         }
-         #header {
-           width: 800px;
-           margin-left: auto;
-           margin-right: auto;
-           text-align: center; 
-         }
-         #footer {
-           width: 800px;
-           margin-left: auto;
-           margin-right: auto; 
-           text-align: center;
-         }
-         #sidebar {
-           width: 200px;
-         }
-         #content {
-           width: 600px;
-         }
-         * {
-          box-sizing: border-box;
-         }
-         #sidebar a:link {
-            color: #45f092;
-            display: block;
-            text-decoration: none;
-          }
-          #sidebar a:visited {
-            color: #fc0136;
-            display: block;
-            text-decoration: none;
-          }
-         #header, #footer, #sidebar, #content {
-          padding: 20px;
-          font-family: "Lucida Console", "Courier New", monospace;
-         }
-         body {
-          background-color:#161616;
-          color: #e4e6e6;
-         }
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #222222; 
+  border-right: 2px solid #222222;
+}
+#header {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+#footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+#sidebar {
+  width: 200px;
+}
+#content {
+  width: 600px;
+}
+* {
+box-sizing: border-box;
+}
+#sidebar a:link {
+  color: #45f092;
+  display: block;
+  text-decoration: none;
+}
+#sidebar a:visited {
+  color: #fc0136;
+  display: block;
+  text-decoration: none;
+}
+#header, #footer, #sidebar, #content {
+padding: 20px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+background-color:#161616;
+color: #e4e6e6;
+}
